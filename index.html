@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiestesia Terapêutica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            border-color: #4CAF50;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+                max-width: 400px;
+                height: 160px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                height: 140px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Radiestesia Terapêutica</h1>
+
+    <div class="cards-container">
+        <div class="card">
+            <a href="https://ravellsl.github.io/radiestesia-doc-01/" target="_blank">Ficha de Avaliação de Harmonização Energética</a>
+        </div>
+        <div class="card">
+            <a href="https://ravellsl.github.io/radiestesia-doc-02/" target="_blank">Ficha de Harmonização Energética</a>
+        </div>
+        <div class="card">
+            <a href="https://ravellsl.github.io/radiestesia-doc-03/" target="_blank">Ficha de Aferição e Harmonização Energética</a>
+        </div>
+        <div class="card">
+            <a href="https://ravellsl.github.io/https-ravellsl.github.io-radiestesia-doc-04/" target="_blank">Ficha de Aferição de Saúde Física</a>
+        </div>
+    </div>
+</body>
+
+</html>
