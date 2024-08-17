@@ -1,78 +1,95 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Radiestesia Terapêutica</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"><style>body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5em;
-    color: #006064;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiestesia Terapêutica</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
 
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            color: #4CAF50; /* Cor verde */
+        }
 
-.card {
-    background-color: #ffffff;
-    border: 2px solid #b2ebf2;
-    border-radius: 15px;
-    box-shadow: 6px15pxrgba(0, 0, 0, 0.1);
-    width: 300px;
-    height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: 600;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    text-decoration: none; /* Remove underline from links */color: inherit; /* Inherit color from parent */
-}
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
 
-.card:hover {
-    transform: scale(1.05);
-    border-color: #4CAF50;
-    box-shadow: 8px20pxrgba(0, 0, 0, 0.2);
-}
+        .card {
+            background-color: #ffffff;
+            border: 2px solid #b2ebf2;
+            border-radius: 15px;
+            box-shadow: 6px 15px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
 
-.card.info {
-    color: red;
-    font-size: 0.8em; /* Tamanho da fonte menor */margin-top: 10px;
-}
+        .card:hover {
+            transform: scale(1.05);
+            border-color: #4CAF50;
+            box-shadow: 8px 20px rgba(0, 0, 0, 0.2);
+        }
 
-@media (max-width: 768px) {
-    .card {
-        width: 100%;
-        max-width: 400px;
-        height: 160px;
-    }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+                max-width: 400px;
+                height: 160px;
+            }
 
-    h1 {
-        font-size: 2em;
-    }
-}
+            h1 {
+                font-size: 2em;
+            }
+        }
 
-@media (max-width: 480px) {
-    .card {
-        height: 140px;
-    }
+        @media (max-width: 480px) {
+            .card {
+                height: 140px;
+            }
 
-    h1 {
-        font-size: 1.8em;
-    }
-}
-</style></head><body><h1>Radiestesia Terapêutica</h1><div class="cards-container"><a href="https://ravellsl.github.io/radiestesia-cadastramento/" target="_blank" class="card">Ficha de Cadastramento</a><a href="https://ravellsl.github.io/radiestesia-fichas-atendimento/" target="_blank" class="card">Fichas de Atendimento</a><div class="card"><div>Sistema de Busca</div><div class="info">Em Breve!</div></div></div></body></html>
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Radiestesia Terapêutica</h1>
+    <div class="cards-container">
+        <a href="https://ravellsl.github.io/radiestesia-cadastramento/" target="_blank" class="card">Ficha de Cadastramento</a>
+        <a href="https://ravellsl.github.io/radiestesia-fichas-atendimento/" target="_blank" class="card">Fichas de Atendimento</a>
+        <a href="https://ravellsl.github.io/radiestesia-busca/" target="_blank" class="card">Sistema de Busca</a>
+    </div>
+</body>
+
+</html>
